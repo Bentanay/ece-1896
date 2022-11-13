@@ -4,11 +4,11 @@ Prerequisites ~~
 
 PC: Remote Into Pi ~~
     - Run the following in PC cmd << putty.exe -ssh [pi_username]@[pi_ip] 22 -pw [pi_password] >>
-    - putty.exe -ssh bentanay@192.168.0.14 22 -pw duckybot
+    - putty.exe -ssh bentanay@192.168.0.102 22 -pw duckybot
 
 PC: Pi ---> PC File Transfer ~~
     - Run the following in PC cmd << pscp.exe -pw [pi_password] -P 22 -r [pi_username]@[pi_ip]:[pi_path] [pc_path] >>
-    - pscp.exe -pw duckybot -P 22 -r bentanay@192.168.0.14:/home/bentanay/10-18-11-02 D:\PiRepo
+    - pscp.exe -pw duckybot -P 22 -r bentanay@192.168.0.102:/home/bentanay/10-18-11-02 D:\PiRepo
 
 Pi: Pi ---> PC File Transfer ~~
     - Run the following in Pi trm << scp [pi_path] [pc_username]@[pc_machine]:[pc_path] >>
@@ -18,10 +18,10 @@ Specs: Pi ~~
     - username: bentanay 
     - machine : x
     - password: duckybot
-    - ip      : 192.168.0.14
+    - ip      : 192.168.0.102
 
 Specs: PC ~~
     - username: benta 
     - machine : BLT
-    - password: DuckyBot5
+    - password: DuckyBot9
     - ip      : 192.168.0.107
