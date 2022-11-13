@@ -23,5 +23,5 @@ Specs: Pi ~~
 Specs: PC ~~
     - username: benta 
     - machine : BLT
-    - password: DuckyBot1
+    - password: DuckyBot5
     - ip      : 192.168.0.107
